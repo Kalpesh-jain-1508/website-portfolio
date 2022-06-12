@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import Typical from 'react-typical';
+import './Profile.css';
 
 export default function Profile() {
 	return (
@@ -8,21 +9,25 @@ export default function Profile() {
 			<div className="profile-parent">
 				<div className="profile-details">
 					<div className="colz">
-						<a href="#">
-							<i className="fa fa-facebook-square"></i>
-						</a>
-						<a href="#">
-							<i className="fa fa-google-plus-square"></i>
-						</a>
-						<a href="#">
-							<i className="fa fa-instagram"></i>
-						</a>
-						<a href="#">
-							<i className="fa fa-youtube-square"></i>
-						</a>
-						<a href="#">
-							<i className="fa fa-twitter"></i>
-						</a>
+						<div className="colz-icon">
+					
+							<a href="#">
+								<i className="fa fa-facebook-square"></i>
+							</a>
+							<a href="#">
+								<i className="fa fa-google-plus-square"></i>
+							</a>
+							<a href="#">
+								<i className="fa fa-instagram"></i>
+							</a>
+							<a href="#">
+								<i className="fa fa-youtube-square"></i>
+							</a>
+							<a href="#">
+								<i className="fa fa-twitter"></i>
+							</a>
+
+						</div>
 					</div>
 
 					<div className="profile-details-name">
@@ -58,17 +63,24 @@ export default function Profile() {
 							</span>
 						</span>
 					</div>
-					<div className="profile-optins">
-						<button className="btn btn-primary">
+					<div className="profile-options">
+						<button className="btn primary-btn">
 							Hire Me
 						</button>
 						<a href="ehizcv.pdf" download="Ehiedu ehizcv.pdf">
 							<button className="btn highlighted-btn">
-								Hire Me
+								Get Resume
 							</button>
 						</a>
 					</div>
 				</div>
+
+				<div className="profile-picture">
+					<div className="profile-picture-background">
+									
+					</div>
+				</div>
+
 			</div>
 		</div>
 	);
